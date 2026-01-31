@@ -82,7 +82,7 @@
             font-family: 'Press Start 2P', cursive;
             color: var(--accent);
             font-size: clamp(18px, 5vw, 36px);
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             text-shadow: 4px 4px var(--primary);
             line-height: 1.4;
         }
@@ -91,7 +91,37 @@
             font-family: 'Press Start 2P', cursive;
             font-size: clamp(12px, 3vw, 18px);
             color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .credits {
+            font-family: 'Roboto', sans-serif;
+            color: #ecf0f1;
             margin-bottom: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px 25px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .credits-school {
+            font-weight: bold;
+            font-size: 16px;
+            color: var(--accent);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .credits-names {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .credits-class {
+            font-size: 12px;
+            opacity: 0.8;
+            font-style: italic;
         }
 
         .btn {
@@ -279,6 +309,14 @@
     <div id="menu-screen" class="overlay">
         <h1>QUIZ ADVENTURE</h1>
         <h2>LITERASI & BUDAYA</h2>
+        
+        <!-- Credits Section -->
+        <div class="credits">
+            <div class="credits-school">Sekolah Citra Kasih Citra Garden</div>
+            <div class="credits-names">Jayden Sean Marlen - Gilbert Filio Thores</div>
+            <div class="credits-class">Kelas 10 SCK Citra Garden</div>
+        </div>
+
         <button class="btn" id="start-btn">MULAI MAIN</button>
         <button class="btn" id="how-to-btn" style="background: var(--secondary); border-color: #27ae60;">CARA BERMAIN</button>
     </div>
